@@ -1,0 +1,418 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header */
+.terro-header {
+    background-color: #f8f5ee;
+    padding: 20px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid #ddd;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.terro-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.terro-logo {
+    height: 100px;
+    width: 100px;
+    background-size: contain;
+}
+
+.terro-nav ul {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+}
+
+.terro-nav ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+.terro-nav ul li a:hover {
+    color: #007bff;
+}
+
+/* Heading Section */
+.terro-heading {
+    text-align: center;
+    padding: 20px;
+    background-color: #e6f7ff;
+    border-bottom: 1px solid #ddd;
+}
+
+.terro-heading h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #34424e;
+}
+
+.terro-heading p {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.terro-heading a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.terro-heading a:hover {
+    color: #004080;
+}
+
+/* About Section */
+.terro-about {
+    background-color: #f0f4f8;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+.terro-about h2 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.terro-about p {
+    font-size: 16px;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+.terro-about a {
+    text-decoration: none;
+    color: #007bff;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.terro-about a:hover {
+    color: #004080;
+}
+
+/* Features Section */
+.terro-features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f2f4f5;
+}
+
+.terro-feature {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(119, 177, 198, 0.805);
+    padding: 20px;
+    text-align: center;
+    flex: 1 1 300px;
+    max-width: 300px;
+}
+
+.terro-feature img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.terro-feature h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #34424e;
+}
+
+.terro-feature p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Courses Section */
+.terro-courses {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.terro-course {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(91, 152, 176, 0.867);
+    padding: 30px;
+    text-align: center;
+    flex: 1 1 300px;
+    max-width: 300px;
+}
+
+.terro-course img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.terro-course h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #34424e;
+}
+
+.terro-course p {
+    font-size: 14px;
+    color: #555;
+}
+.terro-view{
+    text-decoration: none;
+    color: #4d7de6;
+    text-align: center;
+    padding: 14px 20px;
+    &:hover {
+        color: #7664df;
+    }
+}
+/* bAtches */
+.terro-batches {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+.terro-batch{
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(91, 152, 176, 0.867);
+    padding: 30px;
+    text-align: center;
+    flex: 1 1 300px;
+    max-width: 300px;
+}
+
+.terro-batch img {
+    max-width: 75%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+
+.terro-batch h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #34424e;
+}
+
+.terro-batch p {
+    font-size: 14px;
+    color: #555;
+}
+.terro-batch .terro-view{
+    text-decoration: none;
+    color: #4d7de6;
+    text-align: center;
+    padding: 14px 20px;
+    &:hover {
+        color: #7664df;
+    }
+}
+/* students */
+.terro-ourstudents {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+.terro-student {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(91, 152, 176, 0.867);
+    padding: 30px;
+    text-align: center;
+    flex: 1 1 300px;
+    max-width: 300px;
+}
+.terro-student img {
+    max-width: 75%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 50% 50% 50% 50%;
+}
+
+.terro-student h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #34424e;
+}
+
+.terro-student p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Our Team */
+
+.terro-ourteam {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+.terro-team-member {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(91, 152, 176, 0.867);
+    padding: 30px;
+    text-align: center;
+    flex: 1 1 300px;
+    max-width: 300px;
+}
+
+.terro-team-member img {
+    max-width: 75%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+
+.terro-team-member h3 {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #34424e;
+}
+
+.terro-team-member p {
+    font-size: 14px;
+    color: #555;
+}
+.terro-view{
+    text-decoration: none;
+    color: #4d7de6;
+    text-align: center;
+    padding: 14px 20px;
+    &:hover {
+        color: #7664df;
+    }
+}
+
+.terro-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+}
+
+.terro-contact h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #34424e;
+}
+
+.terro-contact form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.terro-contact input[type="text"],
+.terro-contact input[type="email"],
+.terro-contact textarea {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+.contact-button {
+    background-color: #4d7de6;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.terro-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: #34424e;
+    color: #fff;
+    text-align: center;
+}
+
+.terro-footer p {
+    margin-bottom: 20px;
+}
+.terro-footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.terro-footer .terro-social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.terro-footer .terro-social-media a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.terro-footer .terro-social-media a img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+
+
+
+
+
+
+
